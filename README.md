@@ -1,4 +1,5 @@
 # T1A2 - Porfolio
+---
 - [Portfolio Website]("")
 - [GitHub Repository]("")
 
@@ -11,7 +12,7 @@ The purpose of my portfolio is to present me as an up and coming developer to pr
 
 ## Sitemap
 ---
-![wireframe](T1A2_wireframe.drawio.svg)
+![sitemap](docs/sitemap.png)
 ## Screenshots
 ---
 
