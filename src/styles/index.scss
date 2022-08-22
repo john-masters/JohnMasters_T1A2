@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    margin: 0;
+    box-sizing:border-box;
+}
+body {
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    a {
+        text-decoration: none;
+    }
+}
+#hero {
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 30vw;
+        height: 30vw;
+        min-width: 200px;
+        min-height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        padding: 1rem;
+    }
+    h1 {
+        margin-bottom: 1rem;
+    }
+}
+#button {
+    display: inline-block;
+    padding: 0.5rem;
+    border: 1px solid black;
+    margin: 1rem 1rem;
+    float: right;
+    
+}
+#contact {
+    display: none;
+    margin-top: 0.5rem;
+}

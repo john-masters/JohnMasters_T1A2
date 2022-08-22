@@ -6,30 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="icon" type="image/x-icon" href="/docs/favicon.ico">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <nav>
+    <header>
         <a href="index.html">John Masters</a>
-        <a href="about.html">about</a>
-        <a href="projects.html">projects</a>
-        <a href="blog.html">blog</a>
-    </nav>
-   <header>
+        <nav>
+            <a href="about.html">about</a>
+            <a href="projects.html">projects</a>
+            <a href="blog.html">blog</a>
+        </nav>
+    </header>
+   <section id="hero">
         <img src="/docs/self.jpg" alt="Self-portrait">
         <h1>ASPIRING WEB DEVELOPER</h1>
-   </header>
+   </section>
    <section>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi unde iusto blanditiis maiores repellendus ex error officia inventore reiciendis libero possimus, et tempora vel saepe molestiae dicta laborum perferendis temporibus?</p>
    </section>
    <footer>
-        <div id="contact-button">
-            CONTACT
-            <span>
-                Mobile: 0413 515 596
-                Email: mastersjohnr@gmail.com
-                GitHub: github.com/john-masters
-            </span>
+        <div id="button">
+            <p onclick="myFunction()">CONTACT</p>
+            <div id="contact">
+                Mobile: <a href="tel:0413515596">0413 515 596</a><br>
+                Email: <a href="mailto:mastersjohnr@gmail.com">mastersjohnr@gmail.com</a><br>
+                GitHub: <a href="https://github.com/john-masters">github.com/john-masters</a><br>
+            </div>
         </div>
+        <script>
+            function myFunction() {
+                document.getElementById("contact").style.display = "block";
+            }
+        </script>
    </footer>
 </body>
 </html>
