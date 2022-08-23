@@ -6,8 +6,8 @@
 
 body {
   font-family: "Libre Baskerville", serif;
-  display: flex;
-  flex-direction: column;
+  font-size: 1rem;
+  background-color: #D9D9D9;
 }
 
 header {
@@ -15,43 +15,70 @@ header {
   align-items: center;
   padding: 1rem;
   justify-content: space-between;
+  background-color: #1B2626;
+  color: #D9D9D9;
 }
 header a {
   text-decoration: none;
+  color: #D9D9D9;
 }
 
-#hero {
-  font-family: "Libre Franklin", sans-serif;
+main {
+  color: #1B2626;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 80vh;
 }
-#hero img {
+main #hero {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #hero img {
   width: 30vw;
   height: 30vw;
   min-width: 200px;
   min-height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  padding: 1rem;
+  margin: 1rem 0rem 0rem 0rem;
 }
-#hero h1 {
-  margin-bottom: 1rem;
+main #hero h1 {
+  padding: 1rem;
+  text-align: center;
+}
+main #hero p {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+  padding: 0rem 1rem;
+  max-width: 400px;
 }
 
-#button {
+footer {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+}
+footer #button {
   display: inline-block;
   padding: 0.5rem;
-  border: 1px solid black;
+  border: 1px solid #1B2626;
+  background-color: #627173;
+  color: #D9D9D9;
   margin: 1rem 1rem;
-  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
-
-#contact {
+footer #contact {
   display: none;
   margin-top: 0.5rem;
+}
+footer #contact a {
+  color: #D9D9D9;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=index.css.map */
