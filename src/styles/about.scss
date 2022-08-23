@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,400;0,700;1,400&display=swap');
+@mixin heading-text {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.5rem;
+}
+@mixin subheading-text {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+@mixin body-text {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    color: #1B2626;
+}
+* {
+    margin: 0;
+    box-sizing:border-box;
+}
+body {
+    @include body-text;
+    background-color: #D9D9D9;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    background-color: #1B2626;
+    color: #D9D9D9;
+    a {
+        text-decoration: none;
+        color: #D9D9D9;
+    }
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    h1 {
+        @include heading-text;
+    }
+    p {
+        max-width: 375px;
+        padding: 1rem;
+    }
+}
+footer {
+    @include body-text;
+    #button {
+        display: inline-block;
+        padding: 0.5rem;
+        border: 1px solid #1B2626;
+        background-color: #627173;
+        color: #D9D9D9; 
+        margin: 1rem 1rem;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    #contact {
+        display: none;
+        margin-top: 0.5rem;
+        a {
+        color: #D9D9D9; 
+        text-decoration: none;
+        }
+    }
+}

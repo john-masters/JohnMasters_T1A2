@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="icon" type="image/x-icon" href="/docs/favicon.ico">
+    <link rel="stylesheet" href="styles/about.css">
 </head>
 <body>
     <header>
@@ -20,17 +21,29 @@
         <h1>
             HELLO, I AM JOHN MASTERS.
         </h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias aut sapiente et mollitia maxime in, amet beatae quisquam temporibus cupiditate vitae cumque quam eveniet velit, autem obcaecati? Praesentium, alias cum.</p>
+        <p>
+            I'm a current student at <a href="https://www.coderacademy.edu.au/">Coder Academy</a> undertaking a full stack web development bootcamp. I love food, my chihuahua, Nuggy and learning about web development.
+            <br></br>
+            Prior to starting this bootcamp, I worked customer service jobs and was always tinkering with an application called Autohotkey. I created a few programs that would automatically generate emails, or send text messages, which made my jobs a lot easier.
+            <br></br>
+            As there was only a limited amount of things I could do with Autohotkey, I decided to get serious about programming and enrolled at Coder Academy to learn more.
+        </p>
+        <a href="docs/resume.pdf">Resume</a>
     </article>
     <footer>
-        <div id="contact-button">
-            CONTACT
-            <span>
-                Mobile: 0413 515 596
-                Email: mastersjohnr@gmail.com
-                GitHub: github.com/john-masters
-            </span>
+        <div id="button">
+            <p onclick="myFunction()">CONTACT</p>
+            <div id="contact">
+                Mobile: <a href="tel:0413515596">0413 515 596</a><br>
+                Email: <a href="mailto:mastersjohnr@gmail.com">mastersjohnr@gmail.com</a><br>
+                GitHub: <a href="https://github.com/john-masters">github.com/john-masters</a><br>
+            </div>
         </div>
-   </footer>
+        <script>
+            function myFunction() {
+                document.getElementById("contact").style.display = "block";
+            }
+        </script>
+    </footer>
 </body>
 </html>
