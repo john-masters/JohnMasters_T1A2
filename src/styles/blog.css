@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+  color: #1B2626;
+  background-color: #BABEBF;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+  background-color: #4A5859;
+  color: #D9D9D9;
+}
+header a {
+  text-decoration: none;
+  color: #D9D9D9;
+}
+header a:hover {
+  font-style: italic;
+}
+
+footer {
+  height: 10vh;
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+  color: #1B2626;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1rem;
+}
+footer #button {
+  padding: 0.5rem;
+  background-color: #627173;
+  color: #D9D9D9;
+  position: absolute;
+  max-height: fit-content;
+}
+footer #contact {
+  display: none;
+  padding: 1rem 0rem 0rem 0rem;
+}
+footer #contact a {
+  color: #D9D9D9;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=blog.css.map */

@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="icon" type="image/x-icon" href="/docs/favicon.ico">
+    <link rel="stylesheet" href="/src/styles/blog.css">
 </head>
 <body>
-    <nav>
+    <header>
         <a href="index.html">John Masters</a>
-        <a href="about.html">about</a>
-        <a href="projects.html">projects</a>
-        <a href="blog.html">blog</a>
-    </nav>
-    <article>
+        <nav>
+            <a href="about.html">about</a>
+            <a href="projects.html">projects</a>
+            <a href="blog.html">blog</a>
+        </nav>
+    </header>
+    <main>
         <section>
             <a href="blog1.html">
                 <h2>Blog Title</h2>
@@ -22,44 +25,21 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit velit sunt distinctio molestias autem molestiae aliquam. Maxime ipsum recusandae magni sequi, cupiditate nesciunt aspernatur illum quisquam vitae asperiores voluptates deleniti?</p>
             </a>
         </section>
-        <section>
-            <a href="blog2.html">
-                <h2>Blog Title</h2>
-                <img src="https://placekitten.com/200" alt="cute kitten">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit velit sunt distinctio molestias autem molestiae aliquam. Maxime ipsum recusandae magni sequi, cupiditate nesciunt aspernatur illum quisquam vitae asperiores voluptates deleniti?</p>
-            </a>
-        </section>
-        <section>
-            <a href="blog3.html">
-                <h2>Blog Title</h2>
-                <img src="https://placekitten.com/200" alt="cute kitten">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit velit sunt distinctio molestias autem molestiae aliquam. Maxime ipsum recusandae magni sequi, cupiditate nesciunt aspernatur illum quisquam vitae asperiores voluptates deleniti?</p>
-            </a>
-        </section>
-        <section>
-            <a href="blog4.html">
-                <h2>Blog Title</h2>
-                <img src="https://placekitten.com/200" alt="cute kitten">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit velit sunt distinctio molestias autem molestiae aliquam. Maxime ipsum recusandae magni sequi, cupiditate nesciunt aspernatur illum quisquam vitae asperiores voluptates deleniti?</p>
-            </a>
-        </section>
-        <section>
-            <a href="blog5.html">
-                <h2>Blog Title</h2>
-                <img src="https://placekitten.com/200" alt="cute kitten">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit velit sunt distinctio molestias autem molestiae aliquam. Maxime ipsum recusandae magni sequi, cupiditate nesciunt aspernatur illum quisquam vitae asperiores voluptates deleniti?</p>
-            </a>
-        </section>
-    </article>
+    </main>
     <footer>
-        <div id="contact-button">
-            CONTACT
-            <span>
-                Mobile: 0413 515 596
-                Email: mastersjohnr@gmail.com
-                GitHub: github.com/john-masters
-            </span>
+        <div id="button">
+            <p onclick="myFunction()">CONTACT</p>
+            <div id="contact">
+                Mobile: <a href="tel:0413515596">0413 515 596</a><br>
+                Email: <a href="mailto:mastersjohnr@gmail.com">mastersjohnr@gmail.com</a><br>
+                GitHub: <a href="https://github.com/john-masters">github.com/john-masters</a><br>
+            </div>
         </div>
-   </footer>
+        <script>
+            function myFunction() {
+                document.getElementById("contact").style.display = "block";
+            }
+        </script>
+    </footer>
 </body>
 </html>
