@@ -51,40 +51,49 @@ main {
         @include subheading-text;
         text-align: center;
         color: $lightfont;
+        text-shadow: $darkfont 1px 1px;
         margin-bottom: 0.5rem;
     }
     p {
         @include body-text;
+        text-align: center;
         color: $lightfont;
+        text-shadow: $darkfont 1px 1px;
     }
     div {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-image: url("https://placekitten.com/200");
+        background-image: url("../../docs/underconstruction.jpg");
+        filter: grayscale(100%);
         background-color: $darkbg;
         height: 30vh;
-        padding: 0.5rem;
+        max-height: 15rem;
+        width: 90vw;
+        max-width: 30rem;
+        padding: 1rem;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        margin: 1rem;
     }
 }
 footer {
+    height: 10vh;
     @include body-text;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1rem;
     #button {
-        display: inline-block;
         padding: 0.5rem;
         background-color: $medbg;
         color: $lightfont;
-        margin: 1rem 1rem;
         position: absolute;
-        bottom: 0;
-        right: 0;
+        max-height: fit-content;
     }
     #contact {
         display: none;
-        margin-top: 0.5rem;
+        padding: 1rem 0rem 0rem 0rem;
         a {
         color: $lightfont;
         text-decoration: none;
