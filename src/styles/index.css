@@ -7,7 +7,8 @@
 body {
   font-family: "Libre Baskerville", serif;
   font-size: 1rem;
-  background-color: #D9D9D9;
+  color: #1B2626;
+  background-color: #BABEBF;
 }
 
 header {
@@ -15,12 +16,15 @@ header {
   align-items: center;
   padding: 1rem;
   justify-content: space-between;
-  background-color: #1B2626;
+  background-color: #4A5859;
   color: #D9D9D9;
 }
 header a {
   text-decoration: none;
   color: #D9D9D9;
+}
+header a:hover {
+  font-style: italic;
 }
 
 main {
@@ -32,7 +36,7 @@ main {
 }
 main #hero {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,6 +57,7 @@ main #hero h1 {
 main #hero p {
   font-family: "Libre Baskerville", serif;
   font-size: 1rem;
+  color: #1B2626;
   padding: 0rem 1rem;
   max-width: 400px;
 }
@@ -60,11 +65,11 @@ main #hero p {
 footer {
   font-family: "Libre Baskerville", serif;
   font-size: 1rem;
+  color: #1B2626;
 }
 footer #button {
   display: inline-block;
   padding: 0.5rem;
-  border: 1px solid #1B2626;
   background-color: #627173;
   color: #D9D9D9;
   margin: 1rem 1rem;

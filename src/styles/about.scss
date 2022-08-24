@@ -6,41 +6,59 @@
 @mixin subheading-text {
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 @mixin body-text {
     font-family: 'Libre Baskerville', serif;
     font-size: 1rem;
-    color: #1B2626;
+    color: $darkfont;
 }
+$lightbg: #BABEBF;
+$medbg: #627173;
+$darkbg: #4A5859;
+$darkfont: #1B2626;
+$lightfont: #D9D9D9;
 * {
     margin: 0;
     box-sizing:border-box;
 }
 body {
     @include body-text;
-    background-color: #D9D9D9;
+    background-color: $lightbg;
 }
 header {
     display: flex;
     align-items: center;
     padding: 1rem;
     justify-content: space-between;
-    background-color: #1B2626;
-    color: #D9D9D9;
+    background-color: $darkbg;
+    color: $lightfont;
     a {
         text-decoration: none;
-        color: #D9D9D9;
+        color: $lightfont;
+    }
+    a:hover {
+        font-style: italic;
     }
 }
-article {
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90vh;
+    a {
+        font-style: italic;
+        text-decoration: none;
+        color: $darkfont;
+    }
     h1 {
         @include heading-text;
+        text-align: center;
+    }
+    h2 {
+        @include subheading-text;
+        max-width: 375px;
     }
     p {
         max-width: 375px;
@@ -52,9 +70,8 @@ footer {
     #button {
         display: inline-block;
         padding: 0.5rem;
-        border: 1px solid #1B2626;
-        background-color: #627173;
-        color: #D9D9D9; 
+        background-color: $medbg;
+        color: $lightfont;
         margin: 1rem 1rem;
         position: absolute;
         bottom: 0;
@@ -64,7 +81,7 @@ footer {
         display: none;
         margin-top: 0.5rem;
         a {
-        color: #D9D9D9; 
+        color: $lightfont;
         text-decoration: none;
         }
     }

@@ -8,7 +8,7 @@ body {
   font-family: "Libre Baskerville", serif;
   font-size: 1rem;
   color: #1B2626;
-  background-color: #D9D9D9;
+  background-color: #BABEBF;
 }
 
 header {
@@ -16,26 +16,41 @@ header {
   align-items: center;
   padding: 1rem;
   justify-content: space-between;
-  background-color: #1B2626;
+  background-color: #4A5859;
   color: #D9D9D9;
 }
 header a {
   text-decoration: none;
   color: #D9D9D9;
 }
+header a:hover {
+  font-style: italic;
+}
 
-article {
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 90vh;
 }
-article h1 {
+main a {
+  font-style: italic;
+  text-decoration: none;
+  color: #1B2626;
+}
+main h1 {
   font-family: "Libre Franklin", sans-serif;
   font-size: 1.5rem;
+  text-align: center;
 }
-article p {
+main h2 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  max-width: 375px;
+}
+main p {
   max-width: 375px;
   padding: 1rem;
 }
@@ -48,7 +63,6 @@ footer {
 footer #button {
   display: inline-block;
   padding: 0.5rem;
-  border: 1px solid #1B2626;
   background-color: #627173;
   color: #D9D9D9;
   margin: 1rem 1rem;
