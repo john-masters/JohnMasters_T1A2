@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+  color: #1B2626;
+  background-color: #BABEBF;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+  background-color: #4A5859;
+  color: #D9D9D9;
+}
+header a {
+  text-decoration: none;
+  color: #D9D9D9;
+}
+header a:hover {
+  font-style: italic;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+main h2 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #D9D9D9;
+  margin-bottom: 0.5rem;
+}
+main p {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+  color: #1B2626;
+  color: #D9D9D9;
+}
+main div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://placekitten.com/200");
+  background-color: #4A5859;
+  height: 30vh;
+  padding: 0.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+  color: #1B2626;
+}
+footer #button {
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: #627173;
+  color: #D9D9D9;
+  margin: 1rem 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+footer #contact {
+  display: none;
+  margin-top: 0.5rem;
+}
+footer #contact a {
+  color: #D9D9D9;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=projects.css.map */
