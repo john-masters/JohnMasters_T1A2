@@ -6,28 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="icon" type="image/x-icon" href="/docs/favicon.ico">
+    <link rel="stylesheet" href="/src/styles/blog1.css">
 </head>
 <body>
-    <nav>
+    <header>
         <a href="index.html">John Masters</a>
-        <a href="about.html">about</a>
-        <a href="projects.html">projects</a>
-        <a href="blog.html">blog</a>
-    </nav>
-    <article>
-            <h1>Blog Title</h1>
-            <img src="https://placekitten.com/200" alt="cute kitten">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit velit sunt distinctio molestias autem molestiae aliquam. Maxime ipsum recusandae magni sequi, cupiditate nesciunt aspernatur illum quisquam vitae asperiores voluptates deleniti?</p>
-    </article>
-    <footer>
-        <div id="contact-button">
-            CONTACT
-            <span>
-                Mobile: 0413 515 596
-                Email: mastersjohnr@gmail.com
-                GitHub: github.com/john-masters
-            </span>
+        <nav>
+            <a href="about.html">about</a>
+            <a href="projects.html">projects</a>
+            <a href="blog.html">blog</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+                <h2>Cat Blog</h2>
+                <img src="https://placekitten.com/200" alt="cute kitten">
+		<p>
+		Crash against wall but walk away like nothing happened cough hairball on conveniently placed pants hide from vacuum cleaner and walk on a keyboard but check cat door for ambush 10 times before coming in ask for petting. With tail in the air my slave human didn't give me any food so i pooped on the floor groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked i is not fat, i is fluffy.
+		<br></br>Purr for no reason. Reward the chosen human with a slow blink gnaw the corn cob do i like standing on litter cuz i sits when i have spaces, my cat buddies have no litter i live in luxury cat life or bite off human's toes so stinky cat or meow mesmerizing birds. Swipe at owner's legs cats are the world cough hairball, eat toilet paper. Your pillow is now my pet bed mrow. Nyaa nyaa i is not fat, i is fluffy for one of these days i'm going to get that red dot, just you wait and see for chase dog then run away.
+		<br></br>Skid on floor, crash into wall purr so peer out window, chatter at birds, lure them to mouth yet i hate cucumber pls dont throw it at me but cough furball into food bowl then scratch owner for a new one, yet murf pratt ungow ungow. Meowwww shake treat bag, so ask to go outside and ask to come inside and ask to go outside and ask to come inside taco cat backwards spells taco cat yet check cat door for ambush 10 times before coming in.
+		</p>
+	</section>
+<footer>
+        <div id="button">
+            <p onclick="myFunction()">CONTACT</p>
+            <div id="contact">
+                Mobile: <a href="tel:0413515596">0413 515 596</a><br>
+                Email: <a href="mailto:mastersjohnr@gmail.com">mastersjohnr@gmail.com</a><br>
+                GitHub: <a href="https://github.com/john-masters">github.com/john-masters</a><br>
+            </div>
         </div>
-   </footer>
+        <script>
+            function myFunction() {
+                document.getElementById("contact").style.display = "block";
+            }
+        </script>
+    </footer>
 </body>
 </html>

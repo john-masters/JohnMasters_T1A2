@@ -27,10 +27,10 @@ header a:hover {
   font-style: italic;
 }
 
-section {
+main {
   margin: 1rem;
 }
-section a {
+main section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,11 +38,11 @@ section a {
   text-decoration: none;
   color: #1B2626;
 }
-section a h2 {
+main section h2 {
   font-family: "Libre Franklin", sans-serif;
   font-size: 1.5rem;
 }
-section a p {
+main section p {
   max-width: 500px;
 }
 
@@ -71,4 +71,4 @@ footer #contact a {
   text-decoration: none;
 }
 
-/*# sourceMappingURL=blog.css.map */
+/*# sourceMappingURL=blog1.css.map */

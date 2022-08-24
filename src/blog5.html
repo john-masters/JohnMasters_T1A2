@@ -6,28 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="icon" type="image/x-icon" href="/docs/favicon.ico">
+    <link rel="stylesheet" href="/src/styles/blog1.css">
 </head>
 <body>
-    <nav>
+    <header>
         <a href="index.html">John Masters</a>
-        <a href="about.html">about</a>
-        <a href="projects.html">projects</a>
-        <a href="blog.html">blog</a>
-    </nav>
-    <article>
-            <h1>Blog Title</h1>
-            <img src="https://placekitten.com/200" alt="cute kitten">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit velit sunt distinctio molestias autem molestiae aliquam. Maxime ipsum recusandae magni sequi, cupiditate nesciunt aspernatur illum quisquam vitae asperiores voluptates deleniti?</p>
-    </article>
-    <footer>
-        <div id="contact-button">
-            CONTACT
-            <span>
-                Mobile: 0413 515 596
-                Email: mastersjohnr@gmail.com
-                GitHub: github.com/john-masters
-            </span>
+        <nav>
+            <a href="about.html">about</a>
+            <a href="projects.html">projects</a>
+            <a href="blog.html">blog</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+                <h2>Hipster blog</h2>
+                <img src="https://placekitten.com/200" alt="cute kitten">
+		<p>
+		Menu
+		Mukbang iPhone tilde palo santo man bun put a bird on it iceland fashion axe stumptown echo park small batch schlitz offal humblebrag. Intelligentsia actually twee pok pok four dollar toast man braid, waistcoat beard gluten-free. Plaid narwhal heirloom enamel pin, la croix subway tile next level jianbing hoodie lo-fi viral kombucha woke celiac yes plz. Jianbing trust fund drinking vinegar you probably haven't heard of them, VHS JOMO 3 wolf moon mumblecore street art. Semiotics ugh YOLO blog la croix small batch taiyaki biodiesel.<br></br>
+Flexitarian JOMO williamsburg jianbing chia, organic meggings quinoa gastropub snackwave neutra unicorn before they sold out. Hoodie tattooed snackwave keytar artisan vegan asymmetrical typewriter squid raw denim jean shorts heirloom edison bulb austin. Copper mug hammock jianbing, mixtape vice shabby chic paleo. Keffiyeh glossier same offal seitan, try-hard meh pug direct trade 90's kogi mlkshk. Photo booth crucifix hexagon echo park.
+		</p>
+	</section>
+<footer>
+        <div id="button">
+            <p onclick="myFunction()">CONTACT</p>
+            <div id="contact">
+                Mobile: <a href="tel:0413515596">0413 515 596</a><br>
+                Email: <a href="mailto:mastersjohnr@gmail.com">mastersjohnr@gmail.com</a><br>
+                GitHub: <a href="https://github.com/john-masters">github.com/john-masters</a><br>
+            </div>
         </div>
-   </footer>
+        <script>
+            function myFunction() {
+                document.getElementById("contact").style.display = "block";
+            }
+        </script>
+    </footer>
 </body>
 </html>
