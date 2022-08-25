@@ -43,15 +43,17 @@ header {
 }
 main {
     color: $darkfont;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
     #hero {
         @include heading-text;
         display: flex;
         flex-direction: column;
         align-items: center;
+	padding-top: 1rem;
         img {
             width: 30vw;
             height: 30vw;

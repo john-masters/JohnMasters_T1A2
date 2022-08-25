@@ -66,6 +66,7 @@ main {
         justify-content: center;
         background-image: url("../../docs/underconstruction.jpg");
         filter: grayscale(100%);
+	filter: blur(100);
         background-color: $darkbg;
         height: 30vh;
         max-height: 15rem;

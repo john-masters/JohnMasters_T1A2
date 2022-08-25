@@ -29,10 +29,11 @@ header a:hover {
 
 main {
   color: #1B2626;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
 }
 main #hero {
   font-family: "Libre Franklin", sans-serif;
@@ -40,6 +41,7 @@ main #hero {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 1rem;
 }
 main #hero img {
   width: 30vw;
