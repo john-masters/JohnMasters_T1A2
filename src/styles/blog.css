@@ -47,6 +47,7 @@ main section {
   background-color: #627173;
   max-width: 400px;
   min-height: 365px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 main section a {
   display: flex;
@@ -86,6 +87,7 @@ footer #button {
   float: right;
   bottom: 0;
   right: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 footer #contact {
   display: none;
