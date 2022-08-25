@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,400;0,700;1,400&display=swap");
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 600px) {
+  main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -29,7 +40,6 @@ header a:hover {
 
 main {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1rem;
@@ -57,12 +67,11 @@ main div {
   justify-content: center;
   background-image: url("../../docs/underconstruction.jpg");
   filter: grayscale(100%);
-  filter: blur(100);
   background-color: #4A5859;
   height: 30vh;
-  max-height: 15rem;
+  max-height: 20rem;
   width: 90vw;
-  max-width: 30rem;
+  max-width: 20rem;
   padding: 1rem;
   background-repeat: no-repeat;
   background-position: center;

@@ -18,6 +18,17 @@ $medbg: #627173;
 $darkbg: #4A5859;
 $darkfont: #1B2626;
 $lightfont: #D9D9D9;
+@media only screen and (max-width: 600px) {
+	main {
+		flex-direction: column;
+	}
+}
+@media only screen and (min-width: 600px) {
+	main {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+}
 * {
     margin: 0;
     box-sizing:border-box;
@@ -43,7 +54,6 @@ header {
 }
 main {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem;
@@ -66,12 +76,11 @@ main {
         justify-content: center;
         background-image: url("../../docs/underconstruction.jpg");
         filter: grayscale(100%);
-	filter: blur(100);
         background-color: $darkbg;
         height: 30vh;
-        max-height: 15rem;
+        max-height: 20rem;
         width: 90vw;
-        max-width: 30rem;
+        max-width: 20rem;
         padding: 1rem;
         background-repeat: no-repeat;
         background-position: center;
