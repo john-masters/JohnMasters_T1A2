@@ -61,14 +61,14 @@ main {
         @include subheading-text;
         text-align: center;
         color: $lightfont;
-        text-shadow: $darkfont 1px 1px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         margin-bottom: 0.5rem;
     }
     p {
         @include body-text;
         text-align: center;
         color: $lightfont;
-        text-shadow: $darkfont 1px 1px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
     div {
         display: flex;
