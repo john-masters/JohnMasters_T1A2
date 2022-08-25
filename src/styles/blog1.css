@@ -27,11 +27,9 @@ header a:hover {
   font-style: italic;
 }
 
-main {
-  margin: 1rem;
-}
 main section {
   display: flex;
+  margin: 1rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -47,24 +45,23 @@ main section p {
 }
 
 footer {
-  height: 10vh;
   font-family: "Libre Baskerville", serif;
   font-size: 1rem;
   color: #1B2626;
-  display: flex;
-  flex-direction: row-reverse;
-  margin: 1rem;
 }
 footer #button {
+  display: inline-block;
   padding: 0.5rem;
   background-color: #627173;
   color: #D9D9D9;
-  position: absolute;
-  max-height: fit-content;
+  margin: 1rem;
+  float: right;
+  bottom: 0;
+  right: 0;
 }
 footer #contact {
   display: none;
-  padding: 1rem 0rem 0rem 0rem;
+  margin-top: 0.5rem;
 }
 footer #contact a {
   color: #D9D9D9;

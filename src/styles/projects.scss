@@ -78,25 +78,25 @@ main {
         margin: 1rem;
     }
 }
-footer {
-    height: 10vh;
-    @include body-text;
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 1rem;
-    #button {
-        padding: 0.5rem;
-        background-color: $medbg;
-        color: $lightfont;
-        position: absolute;
-        max-height: fit-content;
-    }
-    #contact {
-        display: none;
-        padding: 1rem 0rem 0rem 0rem;
-        a {
-        color: $lightfont;
-        text-decoration: none;
-        }
-    }
-}
+ footer {
+     @include body-text;
+     #button {
+	 display: inline-block;
+         padding: 0.5rem;
+         background-color: $medbg;
+         color: $lightfont;
+	 margin: 1rem 1rem;
+         position: relative;
+	 float: right;
+	 bottom: 0;
+	 right: 0;
+     }
+     #contact {
+         display: none;
+	 margin-top: 0.5rem;
+         a {
+         color: $lightfont;
+         text-decoration: none;
+         }
+     }
+ }

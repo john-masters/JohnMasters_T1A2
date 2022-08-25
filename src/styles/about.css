@@ -66,7 +66,7 @@ footer #button {
   background-color: #627173;
   color: #D9D9D9;
   margin: 1rem 1rem;
-  position: absolute;
+  float: right;
   bottom: 0;
   right: 0;
 }
