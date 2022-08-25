@@ -59,17 +59,18 @@ main {
             height: 30vw;
             min-width: 200px;
             min-height: 200px;
+	    max-width: 350px;
+	    max-height: 350px;
             object-fit: cover;
             border-radius: 50%;
-            margin: 1rem 0rem 0rem 0rem;
+	    margin: 1rem;
         }
         h1 {
-            padding: 1rem;
             text-align: center;
         }
         p {
             @include body-text;
-            padding: 0rem 1rem;
+            padding: 1rem;
             max-width: 400px;
         }
     }

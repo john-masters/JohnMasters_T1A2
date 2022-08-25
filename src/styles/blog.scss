@@ -6,7 +6,7 @@
 @mixin subheading-text {
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 @mixin body-text {
     font-family: 'Libre Baskerville', serif;
@@ -41,22 +41,38 @@ header {
         font-style: italic;
     }
 }
-section {
-	margin: 1rem;
-	a {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-decoration: none;
-		color: $darkfont;
-		h2 {
-			@include heading-text;
-		}
-		p {
-			max-width: 500px;
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	section {
+		margin: 1rem;
+		background-color: $medbg;
+		max-width: 500px;
+		a {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-decoration: none;
+			color: $darkfont;
+			h2 {
+				@include heading-text;
+				color: $lightfont;
+				padding: 0.5rem;
+			}
+			h4 {
+				@include subheading-text;
+			}
+			p {
+				max-width: 500px;
+				padding: 0.5rem;
+			}
 		}
 	}
+	
 }
 footer {
     @include body-text;

@@ -50,6 +50,9 @@ main {
 		align-items: center;
 		text-decoration: none;
 		color: $darkfont;
+		img {
+			margin: 1rem;
+		}
 		h2 {
 			@include heading-text;
 		}
