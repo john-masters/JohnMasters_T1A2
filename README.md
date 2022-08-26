@@ -9,6 +9,7 @@ The purpose of my portfolio is to present me as an up and coming developer to pr
 ---
 
 ## Functionality / features
+
 My portfolio website is coded with semantic HTML elements and optimised for viewing on mobile, tablet and desktop platforms. The site design is kept simple so that it is easy to read and navigate. It is made up of the following 4 pages, and the blog page links to 5 seperate blog pages.
 
 - Index: 
@@ -25,8 +26,11 @@ Main page for blog posts where the reader has the choice of 5 posts, each one co
 ---
 
 ## Sitemap
+
 ![sitemap](docs/sitemap.jpg)
+
 Created with Draw.io
+
 ---
 
 ## Screenshots
@@ -59,13 +63,15 @@ Created with Draw.io
 ---
 
 ## Target audience
-The target audience for my portfolio is an employer looking to hire a junior developer. I expect them to have an a high-degree of technical knowledge.
 
-In addition, the portfolio will be optimised for mobile, tablet and desktop platforms for ease of viewing on all devices.
+The target audience for my portfolio is an employer looking to hire a junior developer. I expect them to have an a high-degree of technical knowledge. To ensure ease of viewing, the portfolio will be optimised for mobile, tablet and desktop platforms.
+
 ---
 
 ## Tech stack (e.g. html, css, deployment platform, etc)
+
 - Website: HTML5, CSS3 and SASS
 - Sitemap and wireframes: Diagrams.net
 - Deployment: GitHub
+
 ---
