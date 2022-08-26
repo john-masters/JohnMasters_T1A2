@@ -89,7 +89,9 @@ main {
 footer {
 /* CONTACT BUTTON */
     @include body-text;
-    position: fixed;
+    height: auto;
+    float: right;
+    position: relative;
     bottom: 0;
     right: 0;
     #button {

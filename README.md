@@ -6,6 +6,7 @@
 ## Purpose
 
 The purpose of my portfolio is to present me as an up and coming developer to prospective employers and showcase my current skills, personality and any projects I'm working on or have finished.
+
 ---
 
 ## Functionality / features
@@ -36,29 +37,19 @@ Created with Draw.io
 ## Screenshots
 
 ### Index
-![Mobile Index Page](docs/site/mobile-index.png)
-![Tablet Index Page](docs/site/tablet-index.png)
-![Desktop Index Page](docs/site/desktop-index.png)
+![Index Page](docs/site/index.jpg)
 
 ### About
-![Mobile About Page](docs/site/mobile-about.png)
-![Tablet About Page](docs/site/tablet-about.png)
-![Desktop About Page](docs/site/desktop-about.png)
+![About Page](docs/site/about.jpg)
 
 ### Projects
-![Mobile Projects Page](docs/site/mobile-projects.png)
-![Tablet Projects Page](docs/site/tablet-projects.png)
-![Desktop Projects Page](docs/site/desktop-projects.png)
+![Mobile Projects Page](docs/site/projects.jpg)
 
 ### Blog
-![Mobile Blog Page](docs/site/mobile-blog.png)
-![Tablet Blog Page](docs/site/tablet-blog.png)
-![Desktop Blog Page](docs/site/desktop-blog.png)
+![Mobile Blog Page](docs/site/blog.jpg)
 
 ### Blog Expanded
-![Mobile Blog Expanded Page](docs/site/mobile-blog-expanded.png)
-![Tablet Blog Expanded Page](docs/site/tablet-blog-expanded.png)
-![Desktop Blog Expanded Page](docs/site/desktop-blog-expanded.png)
+![Mobile Blog Expanded Page](docs/site/blog-expanded.jpg)
 
 ---
 
