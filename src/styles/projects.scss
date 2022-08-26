@@ -39,6 +39,7 @@ body {
 }
 header {
     display: flex;
+    height: 52.5px;
     align-items: center;
     padding: 1rem;
     justify-content: space-between;
@@ -57,18 +58,19 @@ main {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    height: calc(100vh - 52.5px - 52.5px - 32px);
     h2 {
         @include subheading-text;
         text-align: center;
         color: $lightfont;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         margin-bottom: 0.5rem;
     }
     p {
         @include body-text;
         text-align: center;
         color: $lightfont;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
     div {
         display: flex;
@@ -85,23 +87,23 @@ main {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin: 1rem;
     }
 }
  footer {
-     @include body-text;
-     #button {
-	 display: inline-block;
-         padding: 0.5rem;
-         background-color: $medbg;
-         color: $lightfont;
-	 margin: 1rem 1rem;
-         position: relative;
-	 float: right;
-	 bottom: 0;
-	 right: 0;
-	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	@include body-text;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	// height: 52.5px;
+	#button {
+		display: inline-block;
+		margin: 1rem;
+		padding: 0.5rem;
+		background-color: $medbg;
+		color: $lightfont;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      }
      #contact {
          display: none;

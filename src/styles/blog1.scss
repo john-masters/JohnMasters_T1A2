@@ -23,27 +23,28 @@ $lightfont: #D9D9D9;
     box-sizing: border-box;
 }
 body {
-    @include body-text;
-    background-color: $lightbg;
+	@include body-text;
+	background-color: $lightbg;
 }
 header {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    justify-content: space-between;
-    background-color: $darkbg;
-    color: $lightfont;
-    a {
-        text-decoration: none;
-        color: $lightfont;
-    }
-    a:hover {
-        font-style: italic;
-    }
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	justify-content: space-between;
+	background-color: $darkbg;
+	color: $lightfont;
+	a {
+		text-decoration: none;
+		color: $lightfont;
+	}
+	a:hover {
+		font-style: italic;
+	}
 }
 main {
 	section {
 		display: flex;
+		height: 100vh;
 		margin: 1rem;
 		flex-direction: column;
 		justify-content: center;
@@ -64,15 +65,15 @@ main {
 }
 footer {
     @include body-text;
+    position: fixed;
+    bottom: 0;
+    right: 0;
     #button {
 	display: inline-block;
         padding: 0.5rem;
         background-color: $medbg;
         color: $lightfont;
 	margin: 1rem;
-	float: right;
-	bottom: 0;
-	right: 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     #contact {

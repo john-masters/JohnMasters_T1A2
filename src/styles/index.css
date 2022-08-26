@@ -33,7 +33,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
 }
 main #hero {
   font-family: "Libre Franklin", sans-serif;
@@ -70,6 +70,9 @@ footer {
   font-family: "Libre Baskerville", serif;
   font-size: 1rem;
   color: #1B2626;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 footer #button {
   display: inline-block;
@@ -77,9 +80,6 @@ footer #button {
   background-color: #627173;
   color: #D9D9D9;
   margin: 1rem 1rem;
-  float: right;
-  bottom: 0;
-  right: 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 footer #contact {

@@ -24,6 +24,7 @@ body {
 
 header {
   display: flex;
+  height: 52.5px;
   align-items: center;
   padding: 1rem;
   justify-content: space-between;
@@ -43,6 +44,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  height: calc(100vh - 52.5px - 52.5px - 32px);
 }
 main h2 {
   font-family: "Libre Baskerville", serif;
@@ -84,17 +86,16 @@ footer {
   font-family: "Libre Baskerville", serif;
   font-size: 1rem;
   color: #1B2626;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 footer #button {
   display: inline-block;
+  margin: 1rem;
   padding: 0.5rem;
   background-color: #627173;
   color: #D9D9D9;
-  margin: 1rem 1rem;
-  position: relative;
-  float: right;
-  bottom: 0;
-  right: 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 footer #contact {

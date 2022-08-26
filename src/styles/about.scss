@@ -67,15 +67,15 @@ main {
 }
 footer {
     @include body-text;
+    position: fixed;
+    bottom: 0;
+    right: 0;
     #button {
         display: inline-block;
         padding: 0.5rem;
         background-color: $medbg;
         color: $lightfont;
         margin: 1rem 1rem;
-	float: right;
-        bottom: 0;
-        right: 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     #contact {
