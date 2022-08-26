@@ -37,6 +37,7 @@ body {
     background-color: $lightbg;
 }
 header {
+/* NAV BAR */
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -52,6 +53,7 @@ header {
     }
 }
 main {
+/* BLOG SECTION */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -85,6 +87,7 @@ main {
 	
 }
 footer {
+/* CONTACT BUTTON */
     @include body-text;
     position: fixed;
     bottom: 0;

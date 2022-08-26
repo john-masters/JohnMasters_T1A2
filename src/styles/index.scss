@@ -27,6 +27,7 @@ body {
     background-color: $lightbg;
 }
 header {
+/* NAV BAR */
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -49,6 +50,7 @@ main {
     align-items: center;
     height: 80vh;
     #hero {
+/* HERO SECTION */
         @include heading-text;
         display: flex;
         flex-direction: column;
@@ -82,6 +84,7 @@ footer {
     bottom: 0;
     right: 0;
     #button {
+/* CONTACT BUTTON */
         display: inline-block;
         padding: 0.5rem;
         background-color: $medbg;

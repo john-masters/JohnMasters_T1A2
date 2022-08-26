@@ -22,6 +22,7 @@ body {
 }
 
 header {
+  /* NAV BAR */
   display: flex;
   align-items: center;
   padding: 1rem;
@@ -38,6 +39,7 @@ header a:hover {
 }
 
 main {
+  /* BLOG SECTION */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,6 +76,7 @@ main section a p {
 }
 
 footer {
+  /* CONTACT BUTTON */
   font-family: "Libre Baskerville", serif;
   font-size: 1rem;
   color: #1B2626;

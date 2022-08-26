@@ -38,6 +38,7 @@ body {
     background-color: $lightbg;
 }
 header {
+/* NAV BAR */
     display: flex;
     height: 52.5px;
     align-items: center;
@@ -54,6 +55,7 @@ header {
     }
 }
 main {
+	/* PROJECT TILES */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,8 +98,8 @@ main {
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	// height: 52.5px;
 	#button {
+		/* CONTACT BUTTON */
 		display: inline-block;
 		margin: 1rem;
 		padding: 0.5rem;

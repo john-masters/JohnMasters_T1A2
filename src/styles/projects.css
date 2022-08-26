@@ -23,6 +23,7 @@ body {
 }
 
 header {
+  /* NAV BAR */
   display: flex;
   height: 52.5px;
   align-items: center;
@@ -40,6 +41,7 @@ header a:hover {
 }
 
 main {
+  /* PROJECT TILES */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,6 +93,7 @@ footer {
   right: 0;
 }
 footer #button {
+  /* CONTACT BUTTON */
   display: inline-block;
   margin: 1rem;
   padding: 0.5rem;

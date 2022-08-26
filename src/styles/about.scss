@@ -27,6 +27,7 @@ body {
     background-color: $lightbg;
 }
 header {
+/* NAV BAR */
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -42,6 +43,7 @@ header {
     }
 }
 main {
+/* ABOUT ME SECTION */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,6 +73,7 @@ footer {
     bottom: 0;
     right: 0;
     #button {
+/* CONTACT BUTTON */
         display: inline-block;
         padding: 0.5rem;
         background-color: $medbg;
