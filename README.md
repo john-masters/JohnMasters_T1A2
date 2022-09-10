@@ -1,8 +1,7 @@
 # T1A2 - Porfolio
 
-- [Portfolio Website]("")
+- [Portfolio Website]("https://inspiring-sopapillas-f0adea.netlify.app/")
 - [GitHub Repository]("https://github.com/john-masters/JohnMasters_T1A2")
-- [Presentation Video]("https://youtu.be/QnGB9Kxq2yo")
 
 ---
 
